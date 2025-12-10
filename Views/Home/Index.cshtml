@@ -2,7 +2,100 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main class="d-flex flex-column gap-5 gap-md-10">
+    <section class="container mt-4">
+        <div class="p-0">
+            <div class="d-flex flex-column gap-3 gap-md-4 bg-cover bg-center bg-no-repeat rounded-3 align-items-start justify-content-end px-4 pb-4 px-md-5 pb-md-5"
+                 style='min-height: 480px; background-image: linear-gradient(rgba(16, 21, 34, 0.1) 0%, rgba(16, 21, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpUimmJG6ww8jA_4WKKRagJPPDruLSG3KoChya9N_BcB0El3EpqK3EVEDaxi0ScLW9fnG6cChobMNCrqjP_yAgbPzCPwtC80MQRQH2Brd4m1K7njGhhRDN7hTqDSj46fNMCXSiqtJcwdPJKZYRPGs5XGkubXSyAQ95n6k96lQ2D5-DbZRx2P5J5zb-Y-QwyzRTTtCkc1c_G9RURP3Drbugcc4JlAuU1CUDHF8GAJVfsZwIHWQqO17AdBkPEXlvKmp4u7Gd8Gm4uos"); background-size: cover; background-position: center;'>
+                <div class="d-flex flex-column gap-2 text-start" style="max-width: 720px;">
+                    <h1 class="text-white display-4 fw-bolder mb-0">
+                        Soluciones Informáticas a Tu Medida
+                    </h1>
+                    <p class="text-white-75 fs-6 fw-normal mb-0">
+                        Desde optimización de sistemas hasta desarrollo de software personalizado. Potenciamos tu tecnología.
+                    </p>
+                </div>
+                <button class="btn btn-primary btn-lg fw-bold px-4 py-2 mt-2 transition-colors hover:opacity-90">
+                    Explorar Servicios
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex flex-column gap-5 py-5 container">
+        <div class="d-flex flex-column gap-3">
+            <h2 class="text-white display-5 fw-bold mb-0" style="max-width: 720px;">
+                Nuestros Servicios
+            </h2>
+            <p class="text-white-50 fs-6 fw-normal mb-0" style="max-width: 720px;">Ofrecemos una variedad de servicios para potenciar tu tecnología y resolver tus necesidades informáticas.</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+
+            <div class="col">
+                <div class="card h-100 d-flex flex-column gap-3 rounded-3 border border-secondary bg-dark p-4 shadow-sm hover-border-primary">
+                    <div class="text-primary">
+                        <i class="material-icons">rocket_launch</i>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <h3 class="card-title text-white fs-6 fw-bold">Limpieza y Optimización</h3>
+                        <p class="card-text text-white-50 small">Mejoramos el rendimiento y la velocidad de tu equipo para una experiencia fluida.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 d-flex flex-column gap-3 rounded-3 border border-secondary bg-dark p-4 shadow-sm hover-border-primary">
+                    <div class="text-primary">
+                        <i class="material-icons">install_desktop</i>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <h3 class="card-title text-white fs-6 fw-bold">Instalación de SO</h3>
+                        <p class="card-text text-white-50 small">Instalamos y configuramos Windows, Linux o macOS según tus necesidades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 d-flex flex-column gap-3 rounded-3 border border-secondary bg-dark p-4 shadow-sm hover-border-primary">
+                    <div class="text-primary">
+                        <i class="material-icons">code</i>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <h3 class="card-title text-white fs-6 fw-bold">Desarrollo a Medida</h3>
+                        <p class="card-text text-white-50 small">Creamos aplicaciones y soluciones personalizadas para tus proyectos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 d-flex flex-column gap-3 rounded-3 border border-secondary bg-dark p-4 shadow-sm hover-border-primary">
+                    <div class="text-primary">
+                        <i class="material-icons">school</i>
+                    </div>
+                    <div class="d-flex flex-column gap-1">
+                        <h3 class="card-title text-white fs-6 fw-bold">Asistencia Universitaria</h3>
+                        <p class="card-text text-white-50 small">Te ayudamos con tus trabajos y proyectos académicos de informática.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="d-flex flex-column align-items-center justify-content-end gap-4 px-4 py-5 px-md-5 py-md-5 bg-dark rounded-3 border border-secondary text-center">
+            <div class="d-flex flex-column gap-2 align-items-center">
+                <h2 class="text-white display-5 fw-bold mb-0" style="max-width: 720px;">
+                    ¿Listo para empezar?
+                </h2>
+                <p class="text-white-50 fs-6 fw-normal mb-0" style="max-width: 520px;">Contáctanos para obtener una cotización gratuita o para discutir tu próximo proyecto.</p>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <button class="btn btn-primary btn-lg fw-bold px-4 py-2 transition-colors hover:opacity-90">
+                    Solicitar Información
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
