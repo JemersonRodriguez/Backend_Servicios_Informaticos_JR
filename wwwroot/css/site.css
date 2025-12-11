@@ -66,10 +66,16 @@ body {
 
 footer {
     padding-top: 20px;
-    text-align:center;
+    text-align: center;
     margin-bottom: -40px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left : 205px;
+    margin-right: 205px;
 }
 
 .footer-logo {
