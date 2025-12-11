@@ -19,11 +19,9 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #101521;
-}
-
-.contenido-principal {
-    background-color: #101521;
+    background-color: #101521 !important;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
@@ -32,10 +30,9 @@ body {
     justify-content: space-between !important;
     align-content: center !important;
     width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #101521;
 }
 
 #Navegaciones {
@@ -62,7 +59,14 @@ body {
     color: white;
 }
 
+.tarjetas {
+    border: 2px solid #283354;
+    background-color: #192033 !important;
+}
+
 footer {
-    text-align: center;
+    padding-top: 20px;
+    text-align:center;
+    margin-bottom: -40px;
 }
 
