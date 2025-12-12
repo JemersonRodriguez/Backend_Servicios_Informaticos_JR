@@ -11,126 +11,119 @@
                     <div class="d-flex w-100 flex-column align-items-center gap-2 text-center mb-5">
                         <h1 class="display-5 fw-bolder text-white mb-0">Nuestros Servicios Detallados</h1>
                         <p class="lead fw-normal text-secondary" style="max-width: 720px;">
-                            Una sección detallada que amplía la información sobre cada uno de los servicios informáticos ofrecidos: limpieza y optimización de SO, instalación de SO, desarrollo de software a medida y trabajos universitarios.
+                            Explora cada uno de nuestros servicios informáticos deslizando a continuación.
                         </p>
                     </div>
 
-                    <div class="w-100">
-                        <ul class="nav nav-tabs border-bottom" id="servicioTabs" role="tablist" style="border-color: #323f67 !important; gap: 2rem;">
+                    <div id="serviciosCarousel" class="carousel slide w-100" data-bs-ride="carousel">
 
-                            <li class="nav-item flex-grow-1 flex-sm-grow-0" role="presentation">
-                                <a class="nav-link active fw-bold text-center text-white
-                                      border-0 border-bottom border-primary"
-                                   id="limpieza-tab" data-bs-toggle="tab" href="#limpieza" role="tab"
-                                   aria-controls="limpieza" aria-selected="true"
-                                   style="border-bottom-width: 3px !important; background-color: #101521;">
-                                    Limpieza y optimización
-                                </a>
-                            </li>
+                        <div class="carousel-inner">
 
-                            <li class="nav-item flex-grow-1 flex-sm-grow-0" role="presentation">
-                                <a class="nav-link fw-bold text-center text-secondary hover-text-white
-                                      border-0 border-bottom border-transparent"
-                                   id="instalacion-tab" data-bs-toggle="tab" href="#instalacion" role="tab"
-                                   aria-controls="instalacion" aria-selected="false"
-                                   style="border-bottom-width: 3px !important; background-color: #101521;">
-                                    Instalación de SO
-                                </a>
-                            </li>
+                            <div class="carousel-item active">
+                                <div class="card bg-secondary-subtle border-0 rounded-3 p-3" style="background-color: #151a2b">
+                                    <div class="row g-0 align-items-center">
 
-                            <li class="nav-item flex-grow-1 flex-sm-grow-0" role="presentation">
-                                <a class="nav-link fw-bold text-center text-secondary hover-text-white
-                                      border-0 border-bottom border-transparent"
-                                   id="desarrollo-tab" data-bs-toggle="tab" href="#desarrollo" role="tab"
-                                   aria-controls="desarrollo" aria-selected="false"
-                                   style="border-bottom-width: 3px !important; background-color: #101521;">
-                                    Desarrollo a medida
-                                </a>
-                            </li>
-
-                            <li class="nav-item flex-grow-1 flex-sm-grow-0" role="presentation">
-                                <a class="nav-link fw-bold text-center text-secondary hover-text-white
-                                      border-0 border-bottom border-transparent"
-                                   id="trabajos-tab" data-bs-toggle="tab" href="#trabajos" role="tab"
-                                   aria-controls="trabajos" aria-selected="false"
-                                   style="border-bottom-width: 3px !important; background-color: #101521;">
-                                    Trabajos universitarios
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-content w-100 mt-4">
-
-                        <div class="tab-pane fade show active" id="limpieza" role="tabpanel" aria-labelledby="limpieza-tab">
-                            <div class="card bg-secondary-subtle border-0 rounded-3 p-3" style="background-color: #151a2b">
-                                <div class="row g-0 align-items-center">
-                                    <div class="col-xl-5">
-                                        <div class="w-100 rounded-3 bg-cover bg-center"
-                                             style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDmBC0ElCfjD91EbD26XePD5lepPXWaM621qPp2gX2vIw22YrA8NVeujRPcOIvt1jyy4cYFLYzG3fJvcP7T91-KG-gqLhKyHDontPCh5AWiaBjETZV4Sp7ePn3-y23u6uA3IcpuuAQ4TgLaubP_WCuFHS77HtatBU5WzYOKiqY0kfWY1_IEAhHS8dHMtcFafqE1H0sXJXVIQ7SgLWvRmD1-q9ria6j0skken_6qS3D-mcKOTZBxeu9c4XC_ErvsdtU2u1GeAdSMZ5g"); min-height: 250px;'>
+                                        <div class="col-xl-5">
+                                            <div class="w-100 rounded-3 bg-cover bg-center"
+                                                 style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDmBC0ElCfjD91EbD26XePD5lepPXWaM621qPp2gX2vIw22YrA8NVeujRPcOIvt1jyy4cYFLYzG3fJvcP7T91-KG-gqLhKyHDontPCh5AWiaBjETZV4Sp7ePn3-y23u6uA3IcpuuAQ4TgLaubP_WCuFHS77HtatBU5WzYOKiqY0kfWY1_IEAhHS8dHMtcFafqE1H0sXJXVIQ7SgLWvRmD1-q9ria6j0skken_6qS3D-mcKOTZBxeu9c4XC_ErvsdtU2u1GeAdSMZ5g"); min-height: 250px;'>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div class="col-xl-7">
-                                        <div class="card-body d-flex flex-column gap-3 py-4 py-xl-0 px-xl-5">
-                                            <div>
-                                                <p class="text-secondary small mb-0">Servicio Profesional</p>
-                                                <h2 class="card-title h3 fw-bold text-white mb-0">Limpieza y optimización de SO</h2>
-                                            </div>
-                                            <p class="card-text text-secondary">Restauramos la velocidad y eficiencia de tus sistemas para que funcionen como el primer día, eliminando archivos innecesarios y optimizando la configuración.</p>
+                                        <div class="col-xl-7">
+                                            <div class="card-body d-flex flex-column gap-3 py-4 py-xl-0 px-xl-5">
+                                                <div>
+                                                    <p class="text-secondary small mb-0">Servicio Profesional</p>
+                                                    <h2 class="card-title h3 fw-bold text-white mb-0">Limpieza y optimización de SO</h2>
+                                                </div>
+                                                <p class="card-text text-secondary">Restauramos la velocidad y eficiencia de tus sistemas para que funcionen como el primer día, eliminando archivos innecesarios y optimizando la configuración.</p>
 
-                                            <div class="row mt-2 g-4">
-                                                <div class="col-sm-6">
-                                                    <h3 class="h6 fw-bold text-white mb-2">Beneficios</h3>
-                                                    <ul class="list-unstyled space-y-2">
-                                                        <li class="d-flex align-items-start gap-2 small text-secondary">
-                                                            <i class="material-symbols-outlined text-primary me-1">check_circle</i>
-                                                            <span>Mayor rendimiento y velocidad.</span>
-                                                        </li>
-                                                        <li class="d-flex align-items-start gap-2 small text-secondary">
-                                                            <i class="material-symbols-outlined text-primary me-1">check_circle</i>
-                                                            <span>Seguridad mejorada y menos errores.</span>
-                                                        </li>
-                                                        <li class="d-flex align-items-start gap-2 small text-secondary">
-                                                            <i class="material-symbols-outlined text-primary me-1">check_circle</i>
-                                                            <span>Arranque y apagado más rápido.</span>
-                                                        </li>
-                                                    </ul>
+                                                <div class="row mt-2 g-4">
+                                                    <div class="col-sm-6">
+                                                        <h3 class="h6 fw-bold text-white mb-2">Beneficios</h3>
+                                                        <ul class="list-unstyled space-y-2">
+                                                            <li class="d-flex align-items-start gap-2 small text-secondary">
+                                                                <i class="material-symbols-outlined text-primary me-1">check_circle</i>
+                                                                <span>Mayor rendimiento y velocidad.</span>
+                                                            </li>
+                                                            <li class="d-flex align-items-start gap-2 small text-secondary">
+                                                                <i class="material-symbols-outlined text-primary me-1">check_circle</i>
+                                                                <span>Seguridad mejorada y menos errores.</span>
+                                                            </li>
+                                                            <li class="d-flex align-items-start gap-2 small text-secondary">
+                                                                <i class="material-symbols-outlined text-primary me-1">check_circle</i>
+                                                                <span>Arranque y apagado más rápido.</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h3 class="h6 fw-bold text-white mb-2">Proceso</h3>
+                                                        <ul class="list-unstyled space-y-2">
+                                                            <li class="d-flex align-items-start gap-2 small text-secondary">
+                                                                <span class="fw-bold text-primary me-1">1.</span>
+                                                                <span>Diagnóstico inicial completo.</span>
+                                                            </li>
+                                                            <li class="d-flex align-items-start gap-2 small text-secondary">
+                                                                <span class="fw-bold text-primary me-1">2.</span>
+                                                                <span>Ejecución de limpieza y optimización.</span>
+                                                            </li>
+                                                            <li class="d-flex align-items-start gap-2 small text-secondary">
+                                                                <span class="fw-bold text-primary me-1">3.</span>
+                                                                <span>Entrega y reporte de mejoras.</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
 
-                                                <div class="col-sm-6">
-                                                    <h3 class="h6 fw-bold text-white mb-2">Proceso</h3>
-                                                    <ul class="list-unstyled space-y-2">
-                                                        <li class="d-flex align-items-start gap-2 small text-secondary">
-                                                            <span class="fw-bold text-primary me-1">1.</span>
-                                                            <span>Diagnóstico inicial completo.</span>
-                                                        </li>
-                                                        <li class="d-flex align-items-start gap-2 small text-secondary">
-                                                            <span class="fw-bold text-primary me-1">2.</span>
-                                                            <span>Ejecución de limpieza y optimización.</span>
-                                                        </li>
-                                                        <li class="d-flex align-items-start gap-2 small text-secondary">
-                                                            <span class="fw-bold text-primary me-1">3.</span>
-                                                            <span>Entrega y reporte de mejoras.</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                                <div class="mt-3 d-flex justify-content-between align-items-center">
 
-                                            <div class="mt-3 d-flex justify-content-end">
-                                                <button class="btn btn-primary btn-lg fw-medium shadow-lg shadow-primary-50 transition-all hover-bg-primary-dark">
-                                                    Solicitar Servicio
-                                                </button>
+                                                    <div class="carousel-indicators position-relative mb-0 me-3" style="margin-right: auto;">
+                                                        <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                        <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                        <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                        <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                    </div>
+
+                                                    <button class="btn btn-primary btn-lg fw-medium shadow-lg shadow-primary-50 transition-all hover-bg-primary-dark">
+                                                        Solicitar Servicio
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="tab-pane fade" id="instalacion" role="tabpanel" aria-labelledby="instalacion-tab">... Contenido de Instalación ...</div>
-                        <div class="tab-pane fade" id="desarrollo" role="tabpanel" aria-labelledby="desarrollo-tab">... Contenido de Desarrollo ...</div>
-                        <div class="tab-pane fade" id="trabajos" role="tabpanel" aria-labelledby="trabajos-tab">... Contenido de Trabajos ...</div>
+                            <div class="carousel-item">
+                                <h3 class="text-white text-center p-5 bg-dark rounded-3">Contenido Detallado de Instalación de SO</h3>
+                                <div class="carousel-indicators position-relative mt-4">
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <h3 class="text-white text-center p-5 bg-dark rounded-3">Contenido Detallado de Desarrollo a medida</h3>
+                                <div class="carousel-indicators position-relative mt-4">
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <h3 class="text-white text-center p-5 bg-dark rounded-3">Contenido Detallado de Trabajos universitarios</h3>
+                                <div class="carousel-indicators position-relative mt-4">
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+                                </div>
+                            </div>
+
+                        </div>
 
                     </div>
                 </div>
@@ -138,5 +131,3 @@
         </div>
     </div>
 </main>
-
-
