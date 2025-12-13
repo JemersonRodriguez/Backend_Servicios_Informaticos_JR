@@ -1,0 +1,316 @@
+﻿@{
+    ViewData["Title"] = "Servicios";
+}
+
+<main class="text-light min-vh-100">
+    <div class="d-flex flex-column w-100">
+        <div class="flex-grow-1 d-flex flex-column">
+            <div class="d-flex justify-content-center align-content-center pt-5">
+                <div class="d-flex w-100 flex-column align-items-center gap-4">
+
+                    <div class="d-flex w-100 flex-column align-items-center gap-2 text-center mb-5">
+                        <h1 class="display-5 fw-bolder text-white mb-0">Nuestros Servicios Detallados</h1>
+                        <p class="lead fw-normal text-secondary" style="max-width: 720px;">
+                            Explora cada uno de nuestros servicios informáticos deslizando a continuación.
+                        </p>
+                    </div>
+
+                    <div id="serviciosCarousel" class="carousel slide w-100" data-bs-ride="carousel" style="box-shadow: 0px 0px 30px rgb(13 110 253), 0 5px 15px rgba(0, 0, 0, 0.8);">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="card-body-overlay rounded-3 p-4 p-md-5 text-white position-relative"
+                                     style='min-height: 520px; /* ALTURA UNIFORME Y MÁS ESPACIO */
+                                            background-image: linear-gradient(to right, rgba(16, 21, 34, 0.2) 0%, rgba(16, 21, 34, 1) 50%, rgba(16, 21, 34, 1) 100%), url("/img/Limpieza-optimazacion-so.png");
+                                            background-size: cover;
+                                            background-position: left;'>
+
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-xl-6 offset-xl-6 d-flex flex-column justify-content-center">
+                                            <div>
+                                                <p class="text-primary small mb-1 fw-bold">Servicio Profesional</p>
+                                                <h2 class="card-title display-5 fw-bolder mb-3">Limpieza y optimización de SO</h2>
+                                                <p class="lead fw-normal" style="color: rgba(255, 255, 255, 0.9);">
+                                                    Restauramos la velocidad y eficiencia de tus sistemas para que funcionen como el primer día, eliminando archivos innecesarios y optimizando la configuración.
+                                                </p>
+                                            </div>
+
+                                            <div class="row g-4 mt-4">
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Beneficios Clave</h3>
+                                                    <ul class="list-unstyled space-y-2">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">check_circle</i>
+                                                            <span>Mayor rendimiento: Sistema ágil y eficiente.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">check_circle</i>
+                                                            <span>Seguridad mejorada: Menos vulnerabilidades.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">check_circle</i>
+                                                            <span>Arranque rápido: Optimización del inicio.</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Proceso de Limpieza</h3>
+                                                    <ol class="list-unstyled space-y-2 ps-0">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">1.</span>
+                                                            <span>Diagnóstico inicial completo.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">2.</span>
+                                                            <span>Ejecución de limpieza y optimización.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">3.</span>
+                                                            <span>Entrega y reporte de mejoras.</span>
+                                                        </li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                            <div class="mt-4">
+                                                <button class="btn btn-primary btn-lg fw-medium shadow-lg shadow-primary-50 transition-all hover-bg-primary-dark">
+                                                    Solicitar Servicio
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-5 d-flex justify-content-end align-items-center">
+                                        <div class="carousel-indicators mb-0 me-3 position-relative">
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card-body-overlay rounded-3 p-4 p-md-5 text-white position-relative"
+                                     style='min-height: 520px; /* ALTURA UNIFORME */
+                                            background-image: linear-gradient(to right, rgba(16, 21, 34, 0.2) 0%, rgba(16, 21, 34, 1) 50%, rgba(16, 21, 34, 1) 100%), url("/img/instalacion-so.png");
+                                            background-size: cover;
+                                            background-position: left;'>
+
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-xl-6 offset-xl-6 d-flex flex-column justify-content-center">
+                                            <div>
+                                                <p class="text-primary small mb-1 fw-bold">Configuración y Soporte</p>
+                                                <h2 class="card-title display-5 fw-bolder mb-3">Instalación de Sistemas Operativos</h2>
+                                                <p class="lead fw-normal" style="color: rgba(255, 255, 255, 0.9);">
+                                                    Ofrecemos la instalación limpia y configuración completa de cualquier sistema operativo (Windows, macOS, Linux), asegurando un rendimiento óptimo desde el primer arranque.
+                                                </p>
+                                            </div>
+
+                                            <div class="row g-4 mt-4">
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Sistemas Soportados</h3>
+                                                    <ul class="list-unstyled space-y-2">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">desktop_windows</i>
+                                                            <span>Windows (10/11 y versiones Server).</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">laptop_mac</i>
+                                                            <span>macOS (Monterey, Ventura, Sonoma, etc.).</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">terminal</i>
+                                                            <span>Distribuciones Linux (Ubuntu, Fedora, Debian).</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Detalles del Servicio</h3>
+                                                    <ol class="list-unstyled space-y-2 ps-0">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">1.</span>
+                                                            <span>Respaldo y verificación de datos.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">2.</span>
+                                                            <span>Instalación de drivers y utilidades.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">3.</span>
+                                                            <span>Configuración inicial y personalización.</span>
+                                                        </li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                            <div class="mt-4">
+                                                <button class="btn btn-primary btn-lg fw-medium shadow-lg shadow-primary-50 transition-all hover-bg-primary-dark">
+                                                    Solicitar Servicio
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-end align-items-center">
+                                        <div class="carousel-indicators mb-0 me-3 position-relative">
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card-body-overlay rounded-3 p-4 p-md-5 text-white position-relative"
+                                     style='min-height: 520px; /* ALTURA UNIFORME */
+                                            background-image: linear-gradient(to right, rgba(16, 21, 34, 0.2) 0%, rgba(16, 21, 34, 1) 50%, rgba(16, 21, 34, 1) 100%), url("/img/desarrollo-software.png");
+                                            background-size: cover;
+                                            background-position: left;'>
+
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-xl-6 offset-xl-6 d-flex flex-column justify-content-center">
+                                            <div>
+                                                <p class="text-primary small mb-1 fw-bold">Soluciones Empresariales</p>
+                                                <h2 class="card-title display-5 fw-bolder mb-3">Desarrollo de Software a Medida</h2>
+                                                <p class="lead fw-normal" style="color: rgba(255, 255, 255, 0.9);">
+                                                    Implementamos aplicaciones web, móviles o de escritorio diseñadas específicamente para optimizar tus procesos y alcanzar tus objetivos de negocio de manera eficiente.
+                                                </p>
+                                            </div>
+
+                                            <div class="row g-4 mt-4">
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Fases del Desarrollo</h3>
+                                                    <ol class="list-unstyled space-y-2 ps-0">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">1.</span>
+                                                            <span>Análisis de requerimientos y diseño UI/UX.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">2.</span>
+                                                            <span>Codificación, pruebas y aseguramiento de calidad.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <span class="fw-bold text-primary me-1">3.</span>
+                                                            <span>Implementación, despliegue y soporte post-lanzamiento.</span>
+                                                        </li>
+                                                    </ol>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Tecnologías Clave</h3>
+                                                    <ul class="list-unstyled space-y-2">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">code</i>
+                                                            <span>Lenguajes: Python, JavaScript, C#.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">webhook</i>
+                                                            <span>Frameworks: React, Angular, Django, .NET.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">database</i>
+                                                            <span>Bases de Datos: SQL Server, PostgreSQL, MongoDB.</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="mt-4">
+                                                <button class="btn btn-primary btn-lg fw-medium shadow-lg shadow-primary-50 transition-all hover-bg-primary-dark">
+                                                    Cotizar Proyecto
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-end align-items-center">
+                                        <div class="carousel-indicators mb-0 me-3 position-relative">
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card-body-overlay rounded-3 p-4 p-md-5 text-white position-relative"
+                                     style='min-height: 520px; /* ALTURA UNIFORME */
+                                            background-image: linear-gradient(to right, rgba(16, 21, 34, 0.2) 0%, rgba(16, 21, 34, 1) 50%, rgba(16, 21, 34, 1) 100%), url("/img/asistencia-proyectos-academicos.png");
+                                            background-size: cover;
+                                            background-position: left;'>
+
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-xl-6 offset-xl-6 d-flex flex-column justify-content-center">
+                                            <div>
+                                                <p class="text-primary small mb-1 fw-bold">Soporte Estudiantil</p>
+                                                <h2 class="card-title display-5 fw-bolder mb-3">Asistencia en Proyectos Académicos</h2>
+                                                <p class="lead fw-normal" style="color: rgba(255, 255, 255, 0.9);">
+                                                    Ofrecemos tutoría y desarrollo de código para proyectos, trabajos finales y asignaturas universitarias de informática, asegurando que alcances tus metas académicas.
+                                                </p>
+                                            </div>
+
+                                            <div class="row g-4 mt-4">
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Áreas de Enfoque</h3>
+                                                    <ul class="list-unstyled space-y-2">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">school</i>
+                                                            <span>Programación básica y avanzada (Java, C++, Python).</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">public</i>
+                                                            <span>Desarrollo Web (Frontend y Backend).</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">data_array</i>
+                                                            <span>Bases de datos y estructuras de datos.</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <h3 class="h6 fw-bold text-white mb-3 text-uppercase border-bottom border-primary pb-2">Modalidad de Apoyo</h3>
+                                                    <ul class="list-unstyled space-y-2">
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">support</i>
+                                                            <span>Tutorías personalizadas en línea.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">edit_note</i>
+                                                            <span>Revisión y corrección de código.</span>
+                                                        </li>
+                                                        <li class="d-flex align-items-start gap-2 small" style="color: rgba(255, 255, 255, 0.85);">
+                                                            <i class="material-symbols-outlined text-primary me-1" style="font-size: 1.1rem;">code_blocks</i>
+                                                            <span>Desarrollo de módulos funcionales (solo didáctico).</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="mt-4">
+                                                <button class="btn btn-primary btn-lg fw-medium shadow-lg shadow-primary-50 transition-all hover-bg-primary-dark">
+                                                    Consultar Asistencia
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-end align-items-center">
+                                        <div class="carousel-indicators mb-0 me-3 position-relative">
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#serviciosCarousel" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
