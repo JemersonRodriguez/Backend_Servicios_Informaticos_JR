@@ -11,19 +11,23 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light text-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-light text-white border-bottom box-shadow mb-3">
             <div class="Elementos text-white">
                 <div id="Nombre-Empresa">
                     <div class="container-img">
-                        <img src="~/img/logo_app.png" alt="" class="img-fluid"/>
+                        <img src="~/img/logo_app.png" alt="" class="img-fluid" />
                     </div>
                     <a class="navbar-brand text-white text-center" asp-area="" asp-controller="LandingPage" asp-action="Index">Servicios Computacionales</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#Navegaciones"
+                            aria-controls="Navegaciones"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <img src="~/img/menu-icon.png" alt="Menú" style="width: 30px; height: 30px;" />
                     </button>
                 </div>
-                
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" id="Navegaciones">
                     <ul class="navbar-nav flex-grow-1 gap-3">
                         <li class="nav-item flex-fill">
