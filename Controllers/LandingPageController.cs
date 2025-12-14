@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend_SSR_Servicios_Informaticos_JR.Controllers
 {
-    public class HomeController : Controller
+    public class LandingPageController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<LandingPageController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public LandingPageController(ILogger<LandingPageController> logger)
         {
             _logger = logger;
         }
@@ -17,7 +17,17 @@ namespace Backend_SSR_Servicios_Informaticos_JR.Controllers
         {
             return View();
         }
-
+        public IActionResult Servicios()
+        {
+            return View();
+        }   
+        public IActionResult Contacto()
+        {
+            return View();
+        }
+        public IActionResult SobreNosotros() { 
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
