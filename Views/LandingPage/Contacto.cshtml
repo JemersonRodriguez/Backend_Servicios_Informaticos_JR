@@ -6,47 +6,64 @@
 
 <main class="flex-grow-1 container py-5 py-md-5">
     <div class="mx-auto" style="max-width: 1140px;">
-
         <div class="row g-5 g-lg-5">
-
             <div class="col-12 col-lg-6 d-flex flex-column gap-4 gap-md-5"> 
-                
                 <div class="d-flex flex-column gap-3">
                     <h1 class="text-white display-5 fw-bolder mb-0">Ponte en contacto con nosotros</h1>
                     <p class="text-secondary fs-6 mb-0">Estamos aquí para ayudarte. Rellena el formulario o utiliza nuestros datos de contacto.</p>
                 </div>
 
-                <form class="d-flex flex-column gap-4 flex-grow-1"> 
-                    
+                <form id="contactForm"
+                      class="d-flex flex-column gap-4 flex-grow-1">
+
                     <div class="row row-cols-1 row-cols-sm-2 g-4">
                         <div class="col">
                             <label class="d-flex flex-column w-100">
                                 <p class="text-white small fw-medium pb-2 mb-0">Nombre</p>
-                                <input class="form-control bg-dark tarjetas text-white placeholder-text-secondary" placeholder="Tu nombre" type="text" />
+                                <input required
+                                       name="Nombre"
+                                       class="form-control bg-dark tarjetas text-white placeholder-text-secondary"
+                                       placeholder="Tu nombre"
+                                       type="text" />
                             </label>
                         </div>
+
                         <div class="col">
                             <label class="d-flex flex-column w-100">
                                 <p class="text-white small fw-medium pb-2 mb-0">Email</p>
-                                <input class="form-control bg-dark tarjetas text-white placeholder-text-secondary" placeholder="tu@email.com" type="email" />
+                                <input required
+                                       name="Email"
+                                       class="form-control bg-dark tarjetas text-white placeholder-text-secondary"
+                                       placeholder="tu@email.com"
+                                       type="email" />
                             </label>
                         </div>
                     </div>
 
                     <label class="d-flex flex-column w-100">
                         <p class="text-white small fw-medium pb-2 mb-0">Asunto</p>
-                        <input class="form-control bg-dark tarjetas text-white placeholder-text-secondary" placeholder="Asunto del mensaje" type="text" />
+                        <input required
+                               name="Asunto"
+                               class="form-control bg-dark tarjetas text-white placeholder-text-secondary"
+                               placeholder="Asunto del mensaje"
+                               type="text" />
                     </label>
 
                     <label class="d-flex flex-column w-100">
                         <p class="text-white small fw-medium pb-2 mb-0">Mensaje</p>
-                        <textarea class="form-control bg-dark tarjetas text-white placeholder-text-secondary" placeholder="Escribe aquí tu mensaje..." style="min-height: 228px;"></textarea>
+                        <textarea required
+                                  name="Mensaje"
+                                  class="form-control bg-dark tarjetas text-white placeholder-text-secondary"
+                                  placeholder="Escribe aquí tu mensaje..."
+                                  style="min-height: 228px;"></textarea>
                     </label>
 
-                    <button class="btn btn-primary btn-lg fw-bold w-100 w-sm-auto px-4 transition-colors hover-bg-primary-dark" type="submit">
+                    <button type="submit"
+                            class="btn btn-primary btn-lg fw-bold w-100 w-sm-auto px-4 transition-colors hover-bg-primary-dark">
                         Enviar Mensaje
                     </button>
                 </form>
+
             </div>
 
             <div class="col-12 col-lg-6 d-flex flex-column gap-4 gap-md-5">
@@ -94,3 +111,7 @@
         </div>
     </div>
 </main>
+
+@section Scripts {
+    <script src="~/services/services.js"></script>
+}
