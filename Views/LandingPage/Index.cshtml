@@ -12,7 +12,7 @@
                     background-position: center;
                     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.8);'>
 
-                <div class="d-flex flex-column gap-2 text-start" style="max-width: 720px;">
+                <div class="d-flex flex-column gap-2 text-start">
 
                     <h1 class="text-white display-4 fw-bolder mb-0">
                         <div id="titulo-animado" class="animacion-teclado">
@@ -24,9 +24,11 @@
                         Desde optimización de sistemas hasta desarrollo de software personalizado. Potenciamos tu tecnología.
                     </p>
                 </div>
-            <button class="btn btn-primary btn-lg fw-bold px-4 py-2 mt-2 transition-colors hover:opacity-90">
-                Explorar Servicios
-            </button>
+                <a class="btn btn-primary btn-lg fw-bold px-4 py-2 mt-2 transition-colors hover:opacity-90"
+                asp-controller="LandingPage"
+                asp-action="Servicios">
+                    Explorar Servicios
+                </a>
         </div>
     </div>
 </section>
@@ -102,9 +104,11 @@
                 <p class="text-white-50 fs-6 fw-normal mb-0" style="max-width: 520px;">Contáctanos para obtener una cotización gratuita o para discutir tu próximo proyecto.</p>
             </div>
             <div class="d-flex justify-content-center mt-3">
-                <button class="btn btn-primary btn-lg fw-bold px-4 py-2 transition-colors hover:opacity-90">
+                <a class="btn btn-primary btn-lg fw-bold px-4 py-2 transition-colors hover:opacity-90"
+                asp-controller="LandingPage"
+                asp-action="Contacto">
                     Solicitar Información
-                </button>
+                </a>
             </div>
         </div>
     </section>

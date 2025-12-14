@@ -28,7 +28,6 @@ body {
 /* Asegurar que los elementos de la lista crezcan uniformemente */
 .navbar-nav .nav-item.flex-fill {
     flex-grow: 1 !important;
-    flex-basis: 0 !important;
     text-align: center;
 }
 
@@ -142,7 +141,9 @@ body {
     padding-right: 18px;
     padding-bottom: 8px;
     padding-top: 8px;
-    color: white;
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .tarjetas {
@@ -224,6 +225,9 @@ footer {
         padding: 8px 15px;
         border: none;
         border-radius: 5px;
+        color: white !important;
+        text-decoration: none;
+        cursor: pointer;
     }
 }
 
@@ -327,6 +331,9 @@ footer {
         margin: 15px auto;
         padding: 12px 0;
         font-size: 1.1em;
+        color: white !important;
+        text-decoration: none;
+        cursor: pointer;
     }
 }
 /* Final Responsive Layout Landing Page */
