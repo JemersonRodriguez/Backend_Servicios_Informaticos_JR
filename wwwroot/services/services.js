@@ -1,6 +1,4 @@
-﻿const post = "POST";
-
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById("contactForm");
 
     if (!form) {
@@ -16,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = new FormData(form);
 
         try {
-            const response = await fetch("/LandingPage/EnviarCorreo", {
-                method: post,
+            const response = await fetch(form.action, {
+                method: form.method.toUpperCase(),
                 body: formData
             });
 
