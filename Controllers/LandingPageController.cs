@@ -43,6 +43,7 @@ namespace Backend_SSR_Servicios_Informaticos_JR.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> EnviarCorreo(EnvioCorreoDto request) {
             if (!ModelState.IsValid) {
                 return BadRequest();
